@@ -30,10 +30,8 @@
 }
 #_destinos {
   color: blanchedalmond;
-  background-image: url(/img/carretera.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: hsla(40, 19%, 85%, 0.201);
+  backdrop-filter: blur(30px);
 }
 #_titleDestinos {
   width: 100%;
