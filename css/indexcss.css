@@ -1,35 +1,38 @@
-#encabezado{
-    width: 100%;
-    height: 135px;
-    background: #e6900f2d;
-    margin: -20px auto;
-    background-repeat: no-repeat;
-    background-size: cover;
+#encabezado {
+  width: 100%;
+  height: 135px;
+  background: #e6900f2d(40, 19%, 85%, 0.201);
+  backdrop-filter: blur(30px);
+  margin: -20px auto;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#logo{
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    width: 250px;
-    height: 190px;
-    top: -25px;
+#logo {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 250px;
+  height: 190px;
+  top: -25px;
 }
-#menu{
-    width: 100%;
-    height: 46px;
-    background-color: rgb(145, 228, 228);
-    margin: 0px auto;
+#menu {
+  width: 100%;
+  height: 46px;
+  background-color: rgb(145, 228, 228);
+  margin: 0px auto;
 }
-#fondo{
-    background-image: url(../img/Fondo2.jpeg);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
+#fondo {
+  background-image: url(../img/Fondo2.jpeg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.medidas{
-    width: 10%;
-    height: 20%;
+.medidas {
+  width: 10%;
+  height: 20%;
+}
+body {
+  padding-top: 0px;
 }
