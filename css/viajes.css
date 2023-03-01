@@ -45,6 +45,6 @@
 
 .table {
   width: 100%;
-  display: grid;
+  display: flexw;
   place-content: center;
 }
